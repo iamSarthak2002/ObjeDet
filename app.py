@@ -76,7 +76,7 @@ elif option == 'Local System - Video':
         
         cap.release()
 
-# Styling for background image and footer
+# Styling for background image and footer #vipulmalyan
 page_bg_img = '''
 <style>
 [data-testid="stAppViewContainer"] {
@@ -104,6 +104,6 @@ footer_html = """
     font-size: 18px; /* Adjust the font size */
 }
 </style>
-<div class="footer">Made by Vipul Malyan</div>
+<div class="footer">Made by Sarthak Jain</div>
 """
 st.markdown(footer_html, unsafe_allow_html=True)
